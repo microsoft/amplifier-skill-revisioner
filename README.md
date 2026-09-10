@@ -8,7 +8,7 @@ Install with:
 npx skills add microsoft/amplifier-skill-revisioner --skill '*' --agent universal --yes
 ```
 
-The skills also require Python and npm/pnpm for generating a UX.
+The skills also require Python and, for generating a UX, Node.js (`^20.19.0 || >=22.12.0`) with npm/pnpm.
 
 Then in your agent session, ask something like "Run the revision process on the vision file at <path> using the "vision-check-in" skill.
 
