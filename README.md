@@ -1,5 +1,19 @@
 # Revisioner
 
+Skills for finding and testing risky assumptions behind a project vision.
+
+Install with:
+
+```bash
+npx skills add microsoft/amplifier-skill-revisioner --skill '*' --agent universal --yes
+```
+
+The skills also require Python and npm/pnpm for generating a UX.
+
+Then in your agent session, ask something like "Run the revision process on the vision file at <path> using the "vision-check-in" skill.
+
+To generate a UX after the revision process has run say something like "Use the generate-revision-ux skill to create a UX for the revision data in this repo.
+
 ## Contributing
 
 Most contributions require you to agree to a
